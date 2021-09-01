@@ -1,0 +1,5 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+pytest==6.2.5
+selenium==3.141.0
