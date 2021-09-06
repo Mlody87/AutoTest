@@ -15,9 +15,7 @@ def browser_create(request):
     driver.quit()
 
 @pytest.mark.usefixtures('browser_create')
-class TestBasic:
-    pass
-class TestResultsPageTest(TestBasic):
+class TestResultsPageTest:
 
     def test_find_minimum_transfers(self):
         search = searchPage.pkpSearchPage(self.driver)
